@@ -1,0 +1,80 @@
+.fundo{
+    background-image: url("Img/Fundo.png");
+    
+    
+}
+        
+.header{
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #DB5730;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #DB3D35;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column.side {
+  width: 25%;
+}
+
+
+.column.middle {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+.quadro {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding: 20px;
+  gap: 24px;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  background-color: #DB8851;
+  border: 10px solid #DB8851;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  align-self: center;
+}
