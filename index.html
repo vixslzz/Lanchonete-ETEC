@@ -43,32 +43,29 @@
   color: black;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
+body { margin:0; padding:0; }
+ 
+.wrap {
+    width:980px;
+    margin:0 auto;
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.column.side {
-    width:275px;
-    height:450px;
-    float:left;
-}
-
-
-.column.middle {
+.column middle {
     width:690px;
     height:450px;
+    background-color:#0d7963;
     float:right;
 }
-
+.column side {
+    width:275px;
+    height:450px;
+    background-color:#0d7963;
+    float:left;
+}
+.footer {
+    height:70px;
+    margin-top:15px;
+    background-color:#0d7963;
+}
 .clear {
     clear:both;
 }
@@ -104,10 +101,10 @@ button {
 
     </style>
 
-</head>
-<html class="fundo">
-
-<div class="header">
+ </head>
+ <body class="fundo">
+<div class="wrap">
+    <div class="header">
   <h1><img src="Img/logo_mcmm.png" width="400px" height="150px"></h1>
 </div>
 
@@ -198,7 +195,7 @@ button {
     </div>
    </div>
 
-   
-
+  </div>
+      
 </body>
 </html>
